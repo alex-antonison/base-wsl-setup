@@ -44,3 +44,19 @@ This guide assumes you have set up your computer for running WSL and have Ubuntu
     c. With pyenv installed, you can then install the latest version of a specific version of Python with
       
        pyenv install 3.11
+
+4. Setup [Serverless.com](https://www.serverless.com/)
+
+   a. Install nvm (this will be used to install other packages)
+    
+       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+
+   b. You will need to source your `source .bashrc` file to get nvm added to your path
+
+   c. Install node
+
+       nvm install node
+
+   d. Install Serverless
+
+       npm install -g serverless
