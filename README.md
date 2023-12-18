@@ -23,7 +23,7 @@ This guide assumes you have set up your computer for running WSL and have Ubuntu
 
        chmod 700 ~/.ssh && chmod 644 ~/.ssh/config && chmod 600 ~/.ssh/github
 
-2. Set up Linux Environment
+2. Set up Linux Environment (you can see these in the [setup_linux.sh](./setup_linux.sh) file)
 
     a. Install [Oh My Bash](https://github.com/ohmybash/oh-my-bash)
 
