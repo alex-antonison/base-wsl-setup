@@ -41,3 +41,6 @@ This guide assumes you have set up your computer for running WSL and have Ubuntu
        echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
        echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
     
+    c. With pyenv installed, you can then install the latest version of a specific version of Python with
+      
+       pyenv install 3.11
