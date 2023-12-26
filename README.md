@@ -60,3 +60,21 @@ This guide assumes you have set up your computer for running WSL and have Ubuntu
    d. Install Serverless
 
        npm install -g serverless
+
+
+5. Setup [Docker](https://docs.docker.com/desktop/install/windows-install/)
+
+    a. Follow instructions for installing Docker Desktop [Install Docker on Windows](https://docs.docker.com/desktop/install/windows-install/)
+
+6. Setup [Terraform](https://www.terraform.io/)
+
+    a. Clone [tfenv](https://github.com/tfutils/tfenv) whcih is a utility to install terraform
+
+       git clone --depth=1 https://github.com/tfutils/tfenv.git ~/.tfenv
+       echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.bashrc
+
+    b. Source your .bashrc file `source .bashrc`
+    c. Run `tfenv install 1.6.6` to install the 1.6.6 version of terraform
+    d. Run `tfenv global 1.6.6` to set your global version of terrafrom to 1.6.6
+
+7. Setup [awscli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) by running the [setup_aws_cli.sh](./setup_aws_cli.sh)
